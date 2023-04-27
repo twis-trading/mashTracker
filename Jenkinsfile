@@ -6,7 +6,7 @@ pipeline {
         VULTR_SERVER_USER = 'root'
         VULTR_SERVER_SSH_PORT = '22'
         CONTAINER_NAME = "mashtracker"
-        //test pooling
+        //test pooling 
     }
   stages {
     stage('Setup') {
